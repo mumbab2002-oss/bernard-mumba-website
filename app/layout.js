@@ -1,20 +1,58 @@
 export const metadata = {
-  title: "Bernard Mumba Civil & Structural Consultants",
-  description: "Civil Engineer in Zambia – structural design and consultancy services."
+  title: "Mumba Civil Consultants | Civil Engineer in Zambia",
+  description:
+    "Mumba Civil Consultants offers professional civil and structural engineering services in Zambia including design, supervision, and consultancy.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body style={{ fontFamily: 'Arial, sans-serif', margin: 0 }}>
-        <header style={{ padding: '20px', background: '#0f2a44', color: 'white' }}>
-          <h1>Bernard Mumba Civil & Structural Consultants</h1>
-        </header>
-        <main style={{ padding: '20px' }}>{children}</main>
-        <footer style={{ padding: '20px', background: '#0f2a44', color: 'white' }}>
-          <p>© {new Date().getFullYear()} Bernard Mumba Civil & Structural Consultants</p>
+      <body style={{ margin: 0, fontFamily: "Arial, sans-serif" }}>
+        {/* NAVBAR */}
+        <nav
+          style={{
+            background: "#0f2a44",
+            padding: "15px 30px",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+          }}
+        >
+          <strong style={{ color: "white", fontSize: "18px" }}>
+            Mumba Civil Consultants
+          </strong>
+          <div>
+            <a href="/" style={linkStyle}>Home</a>
+            <a href="/about" style={linkStyle}>About</a>
+            <a href="/services" style={linkStyle}>Services</a>
+            <a href="/projects" style={linkStyle}>Projects</a>
+            <a href="/contact" style={linkStyle}>Contact</a>
+          </div>
+        </nav>
+
+        {/* PAGE CONTENT */}
+        <main style={{ padding: "40px" }}>{children}</main>
+
+        {/* FOOTER */}
+        <footer
+          style={{
+            background: "#0f2a44",
+            color: "white",
+            padding: "20px",
+            textAlign: "center",
+          }}
+        >
+          <p>© {new Date().getFullYear()} Mumba Civil Consultants</p>
+          <p>Ndola, Zambia | Email: mumbab2002@gmail.com</p>
         </footer>
       </body>
     </html>
   );
 }
+
+const linkStyle = {
+  color: "white",
+  marginLeft: "15px",
+  textDecoration: "none",
+  fontSize: "14px",
+};
