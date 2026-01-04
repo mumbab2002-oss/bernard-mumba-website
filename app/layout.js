@@ -8,70 +8,96 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body style={{ margin: 0, fontFamily: "Arial, sans-serif" }}>
-        {/* NAVBAR */}
-        <nav
-          style={{
-            background: "#0f2a44",
-            padding: "15px 30px",
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-          }}
-        >
-          <strong style={{ color: "white", fontSize: "18px" }}>
-            Mumba Consultants
-          </strong>
-          <div>
-            <a href="/" style={linkStyle}>Home</a>
-            <a href="/about" style={linkStyle}>About</a>
-            <a href="/services" style={linkStyle}>Services</a>
-            <a href="/projects" style={linkStyle}>Projects</a>
-            <a href="/contact" style={linkStyle}>Contact</a>
-          </div>
-        </nav>
+        
+        {/* Main Page Content */}
+        {children}
 
-        {/* PAGE CONTENT */}
-        <main style={{ padding: "40px" }}>{children}</main>
-<a
-  href="https://wa.me/message/L4UVQ3PS2LMWN1"
-  target="_blank"
-  rel="noopener noreferrer"
-  style={{
-    position: "fixed",
-    bottom: "20px",
-    right: "20px",
-    backgroundColor: "#25D366",
-    color: "white",
-    padding: "15px",
-    borderRadius: "50%",
-    textDecoration: "none",
-    fontSize: "20px",
-    zIndex: 1000,
-  }}
->
-  💬
-</a>
-
-        {/* FOOTER */}
+        {/* Footer */}
         <footer
           style={{
-            background: "#0f2a44",
-            color: "white",
+            marginTop: "50px",
             padding: "20px",
+            backgroundColor: "#0a3d62",
+            color: "#fff",
             textAlign: "center",
           }}
         >
-          <p>© {new Date().getFullYear()} Mumba Consultants</p>
-          <p>Ndola, Zambia | Email: mumbab2002@gmail.com</p>
+          <h3>Mumba Consulntants</h3>
+          <p>Civil & Structural Engineering Consultants – Zambia</p>
+
+          {/* Social Media Links */}
+          <div style={{ marginTop: "10px" }}>
+            <a
+              href="https://www.linkedin.com/in/bernard-mumba-02372b333"
+              target="_blank"
+              style={{ color: "#fff", margin: "0 10px" }}
+            >
+              LinkedIn
+            </a>
+
+            <a
+              href="https://www.facebook.com/share/1C32NACPan/"
+              target="_blank"
+              style={{ color: "#fff", margin: "0 10px" }}
+            >
+              Facebook
+            </a>
+
+            <a
+              href="https://www.instagram.com/bernardbwalyamumba"
+              target="_blank"
+              style={{ color: "#fff", margin: "0 10px" }}
+            >
+              Instagram
+            </a>
+
+            <a
+              href="https://www.threads.com/@bernardbwalyamumba"
+              target="_blank"
+              style={{ color: "#fff", margin: "0 10px" }}
+            >
+              Threads
+            </a>
+
+            <a
+              href="https://www.youtube.com/@structuralbbmumba"
+              target="_blank"
+              style={{ color: "#fff", margin: "0 10px" }}
+            >
+              YouTube
+            </a>
+          </div>
+
+          <p style={{ marginTop: "15px", fontSize: "14px" }}>
+            © {new Date().getFullYear()} Mumba Consulntants. All rights reserved.
+          </p>
         </footer>
+
+        {/* Floating WhatsApp Button */}
+        <a
+          href="https://wa.me/message/L4UVQ3PS2LMWN1"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            position: "fixed",
+            bottom: "20px",
+            right: "20px",
+            backgroundColor: "#25D366",
+            color: "white",
+            padding: "15px",
+            borderRadius: "50%",
+            textDecoration: "none",
+            fontSize: "20px",
+            zIndex: 1000,
+          }}
+        >
+          💬
+        </a>
+
       </body>
     </html>
   );
 }
 
-const linkStyle = {
-  color: "white",
-  marginLeft: "15px",
-  textDecoration: "none",
-  fontSize: "14px",
-};
+        
+ 
