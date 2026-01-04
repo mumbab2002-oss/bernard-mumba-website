@@ -18,11 +18,13 @@ export default function Home() {
           <li>✔ Experience in housing & infrastructure</li>
           <li>✔ Professional supervision, house plans and designe & reporting</li>
           <li>✔ Zambia-based, site-focused solutions</li>
-        </ul>
-      </section>
+
            <a href="/Mumba-Consulntants-Profile.pdf" download>
   📄 Download Company Profile
 
+        </ul>
+      </section>
+        
       <section style={{ marginTop: "40px" }}>
         <h2>Contact</h2>
         <p>📍 Ndola, Zambia</p>
