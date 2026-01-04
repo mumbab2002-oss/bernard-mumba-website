@@ -18,5 +18,9 @@ export default function About() {
         member of the Engineering Institution of Zambia (EIZ).
       </p>
     </div>
+  <a href="/Mumba-Consulntants-Profile.pdf" download>
+  📄 Download Company Profile
+</a>
+
   );
 }
