@@ -6,7 +6,7 @@ export default function Home() {
       </h1>
 
       <p style={{ fontSize: "18px", maxWidth: "800px" }}>
-        Mumba Civil Consultants provides professional civil and structural
+        Mumba Consultants provides professional civil and structural
         engineering services including structural design, construction
         supervision, and infrastructure consultancy across Zambia.
       </p>
@@ -16,7 +16,7 @@ export default function Home() {
         <ul>
           <li>✔ Safe & code-compliant designs</li>
           <li>✔ Experience in housing & infrastructure</li>
-          <li>✔ Professional supervision & reporting</li>
+          <li>✔ Professional supervision, house plans and designe & reporting</li>
           <li>✔ Zambia-based, site-focused solutions</li>
         </ul>
       </section>
