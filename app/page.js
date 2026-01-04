@@ -20,6 +20,8 @@ export default function Home() {
           <li>✔ Zambia-based, site-focused solutions</li>
         </ul>
       </section>
+           <a href="/Mumba-Consulntants-Profile.pdf" download>
+  📄 Download Company Profile
 
       <section style={{ marginTop: "40px" }}>
         <h2>Contact</h2>
