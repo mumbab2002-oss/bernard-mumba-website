@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div>
-      <h1>About Mumba Civil Consultants</h1>
+      <h1>About Mumba Consultants</h1>
 
       <p>
         Mumba Civil Consultants is a Zambian civil and structural engineering
