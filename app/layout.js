@@ -40,12 +40,21 @@ export default function RootLayout({ children }) {
               >
                 Home
               </a>
+
               <a
                 href="/services"
                 style={{ color: "#fff", marginRight: "15px", textDecoration: "none" }}
               >
                 Services
               </a>
+
+              <a
+                href="/projects"
+                style={{ color: "#fff", marginRight: "15px", textDecoration: "none" }}
+              >
+                Projects
+              </a>
+
               <a
                 href="/contact"
                 style={{ color: "#fff", textDecoration: "none" }}
@@ -56,8 +65,14 @@ export default function RootLayout({ children }) {
           </div>
         </header>
 
-        {/* ================= MAIN PAGE CONTENT ================= */}
-        <main style={{ maxWidth: "1100px", margin: "40px auto", padding: "0 20px" }}>
+        {/* ================= MAIN CONTENT ================= */}
+        <main
+          style={{
+            maxWidth: "1100px",
+            margin: "40px auto",
+            padding: "0 20px",
+          }}
+        >
           {children}
         </main>
 
@@ -129,7 +144,7 @@ export default function RootLayout({ children }) {
           </p>
         </footer>
 
-        {/* ================= FLOATING WHATSAPP BUTTON ================= */}
+        {/* ================= FLOATING WHATSAPP ================= */}
         <a
           href="https://wa.me/message/L4UVQ3PS2LMWN1"
           target="_blank"
