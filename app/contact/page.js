@@ -23,7 +23,7 @@ export default function Contact() {
       ></iframe>
     </div>
   );
-}
+
 <h2>Send Us a Message</h2>
 
 <form
@@ -41,3 +41,4 @@ export default function Contact() {
   <br /><br />
   <button type="submit">Send Message</button>
 </form>
+}
