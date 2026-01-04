@@ -14,15 +14,9 @@ export default function Contact() {
           target="_blank"
           rel="noopener noreferrer"
         >
-            <iframe
-  src="https://www.google.com/maps?q=Ndola+Zambia+Town+Centre&output=embed"
-  width="100%"
-  height="350"
-  style={{ border: 0, borderRadius: "8px" }}
-  loading="lazy"
-></iframe>
+             Chat on WhatsApp
 
-          Chat on WhatsApp
+
         </a>
       </p>
 
@@ -31,15 +25,13 @@ export default function Contact() {
       {/* Google Maps Section */}
       <h2>Our Office Location</h2>
 
-      <iframe
-        src="https://www.google.com/maps?q=Ndola,Zambia&output=embed"
-        width="100%"
-        height="350"
-        style={{ border: 0 }}
-        allowFullScreen=""
-        loading="lazy"
-        referrerPolicy="no-referrer-when-downgrade"
-      ></iframe>
+     <iframe
+  src="https://www.google.com/maps?q=Ndola+Zambia+Town+Centre&output=embed"
+  width="100%"
+  height="350"
+  style={{ border: 0, borderRadius: "8px" }}
+  loading="lazy"
+></iframe>
 
       <hr />
 
