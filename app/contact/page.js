@@ -14,6 +14,14 @@ export default function Contact() {
           target="_blank"
           rel="noopener noreferrer"
         >
+            <iframe
+  src="https://www.google.com/maps?q=Ndola+Zambia+Town+Centre&output=embed"
+  width="100%"
+  height="350"
+  style={{ border: 0, borderRadius: "8px" }}
+  loading="lazy"
+></iframe>
+
           Chat on WhatsApp
         </a>
       </p>
