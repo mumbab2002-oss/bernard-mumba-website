@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Mumba Civil Consultants | Civil Engineer in Zambia",
+  title: "Mumba Consulntants | Civil Engineer in Zambia",
   description:
-    "Mumba Civil Consultants offers professional civil and structural engineering services in Zambia including design, supervision, and consultancy.",
+    "Mumba Consulntants offers professional civil and structural engineering services in Zambia including design, supervision, and consultancy.",
 };
 
 export default function RootLayout({ children }) {
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
           }}
         >
           <strong style={{ color: "white", fontSize: "18px" }}>
-            Mumba Civil Consultants
+            Mumba Consultants
           </strong>
           <div>
             <a href="/" style={linkStyle}>Home</a>
@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
             textAlign: "center",
           }}
         >
-          <p>© {new Date().getFullYear()} Mumba Civil Consultants</p>
+          <p>© {new Date().getFullYear()} Mumba Consultants</p>
           <p>Ndola, Zambia | Email: mumbab2002@gmail.com</p>
         </footer>
       </body>
