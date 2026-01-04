@@ -23,8 +23,8 @@ export default function Projects() {
       </div>
 
       <p>
-        📌 To add photos: upload images into the <strong>public/images</strong>
-        folder in GitHub.
+        upload images into the <strong>public/images</strong>
+  
       </p>
     </div>
   );
