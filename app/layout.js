@@ -32,6 +32,25 @@ export default function RootLayout({ children }) {
 
         {/* PAGE CONTENT */}
         <main style={{ padding: "40px" }}>{children}</main>
+<a
+  href="https://wa.me/message/L4UVQ3PS2LMWN1"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    position: "fixed",
+    bottom: "20px",
+    right: "20px",
+    backgroundColor: "#25D366",
+    color: "white",
+    padding: "15px",
+    borderRadius: "50%",
+    textDecoration: "none",
+    fontSize: "20px",
+    zIndex: 1000,
+  }}
+>
+  💬
+</a>
 
         {/* FOOTER */}
         <footer
