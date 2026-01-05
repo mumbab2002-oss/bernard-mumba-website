@@ -1,39 +1,28 @@
 import { NextResponse } from "next/server";
-import nodemailer from "nodemailer";
+import { Resend } from "resend";
 
-// 🔴 FORCE NODE RUNTIME (THIS FIXES THE ERROR)
 export const runtime = "nodejs";
 
-let downloadCount = 0;
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST() {
   try {
-    downloadCount++;
-
-    const transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
-      },
-    });
-
-    await transporter.sendMail({
-      from: `"Mumba Consultants" <${process.env.EMAIL_USER}>`,
+    await resend.emails.send({
+      from: "Mumba Consultants <onboarding@resend.dev>",
       to: "mumbab2002@gmail.com",
       subject: "📄 Company Profile Downloaded",
-      text: `Your company profile has been downloaded.\nTotal downloads: ${downloadCount}`,
+      html: `
+        <h2>Company Profile Downloaded</h2>
+        <p>Your company profile has been downloaded from the website.</p>
+        <p><strong>Mumba Consultants</strong></p>
+      `,
     });
 
-    return NextResponse.json({
-      success: true,
-      downloadCount,
-    });
+    return NextResponse.json({ success: true });
   } catch (error) {
-    console.error("Download API error:", error);
-
+    console.error("Resend error:", error);
     return NextResponse.json(
-      { success: false, error: "Email failed" },
+      { success: false },
       { status: 500 }
     );
   }
