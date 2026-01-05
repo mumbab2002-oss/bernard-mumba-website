@@ -35,25 +35,26 @@ export default function Home() {
       {/* ================= WHY CHOOSE US ================= */}
       <section style={{ marginTop: "40px" }}>
         <h2>Why Choose Us</h2>
+
         <div
-  style={{
-    display: "inline-block",
-    marginBottom: "20px",
-    padding: "12px 18px",
-    backgroundColor: "#ffffff",
-    borderRadius: "8px",
-    boxShadow: "0 2px 6px rgba(0,0,0,0.1)",
-    transition: "transform 0.3s",
-  }}
-  onMouseOver={(e) =>
-    (e.currentTarget.style.transform = "scale(1.05)")
-  }
-  onMouseOut={(e) =>
-    (e.currentTarget.style.transform = "scale(1)")
-  }
->
-  🏗️ Structural Design
-</div>
+          style={{
+            display: "inline-block",
+            marginBottom: "20px",
+            padding: "12px 18px",
+            backgroundColor: "#ffffff",
+            borderRadius: "8px",
+            boxShadow: "0 2px 6px rgba(0,0,0,0.1)",
+            transition: "transform 0.3s",
+          }}
+          onMouseOver={(e) =>
+            (e.currentTarget.style.transform = "scale(1.05)")
+          }
+          onMouseOut={(e) =>
+            (e.currentTarget.style.transform = "scale(1)")
+          }
+        >
+          🏗️ Structural Design
+        </div>
 
         <ul>
           <li>✔ Safe & code-compliant designs</li>
@@ -64,22 +65,25 @@ export default function Home() {
           <li>✔ Zambia-based, site-focused solutions</li>
         </ul>
       </section>
-<a
-  href="/contact"
-  style={{
-    display: "inline-block",
-    marginTop: "20px",
-    padding: "14px 22px",
-    backgroundColor: "#0a3d62",
-    color: "#fff",
-    borderRadius: "6px",
-    textDecoration: "none",
-    fontWeight: "bold",
-  }}
->
-  📞 Request Engineering Consultation
-</a>
 
+      {/* ================= CTA ================= */}
+      <section style={{ marginTop: "30px" }}>
+        <a
+          href="/contact"
+          style={{
+            display: "inline-block",
+            marginTop: "20px",
+            padding: "14px 22px",
+            backgroundColor: "#0a3d62",
+            color: "#fff",
+            borderRadius: "6px",
+            textDecoration: "none",
+            fontWeight: "bold",
+          }}
+        >
+          📞 Request Engineering Consultation
+        </a>
+      </section>
 
       {/* ================= CONTACT ================= */}
       <section style={{ marginTop: "40px" }}>
