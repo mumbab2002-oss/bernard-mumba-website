@@ -10,8 +10,26 @@ export default function Home() {
         engineering services including structural design, construction
         supervision, and infrastructure consultancy across Zambia.
       </p>
+          <section>
+  <h2>What Clients Say</h2>
 
-      <section style={{ marginTop: "40px" }}>
+  <div style={card}>
+    <p>
+      “Mumba Consultants provided excellent structural guidance for our house
+      project in Ndola.”
+    </p>
+    <strong>— Homeowner, Ndola</strong>
+  </div>
+
+  <div style={card}>
+    <p>
+      “Professional, reliable, and technically sound engineering services.”
+    </p>
+    <strong>— Contractor, Copperbelt</strong>
+  </div>
+</section>
+
+<section style={{ marginTop: "40px" }}>
         <h2>Why Choose Us</h2>
         <ul>
           <li>✔ Safe & code-compliant designs</li>
