@@ -2,15 +2,11 @@ export default function About() {
   return (
     <div>
       <h1>About Mumba Consultants</h1>
-
       <p>
         Mumba Civil Consultants is a Zambian civil and structural engineering
         consultancy committed to delivering safe, efficient, and economical
         engineering solutions.
       </p>
-           <a href="/Mumba-Consulntants-Profile.pdf" download>
-  📄 Download Company Profile
-
       <h2>Founder Biography</h2>
       <p>
         Bernard Mumba is a civil engineering professional with experience in
@@ -20,7 +16,6 @@ export default function About() {
         member of the Engineering Institution of Zambia (EIZ).
       </p>
     </div>
-
 </a>
 
   );
