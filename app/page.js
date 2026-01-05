@@ -1,3 +1,5 @@
+"use client";
+
 export default function Home() {
   return (
     <div>
@@ -91,7 +93,7 @@ export default function Home() {
         <p>📍 Ndola, Zambia</p>
         <p>📧 Email: mumbab2002@gmail.com</p>
         <p>
-          💬 WhatsApp:{" "}
+          💬 WhatsApp{" "}
           <a
             href="https://wa.me/message/L4UVQ3PS2LMWN1"
             target="_blank"
