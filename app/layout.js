@@ -2,6 +2,7 @@ export const metadata = {
   title: "Mumba Consultants | Civil Engineer in Zambia",
   description:
     "Mumba Consultants offers professional civil and structural engineering services in Zambia including design, supervision, and consultancy.",
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 };
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 export default function RootLayout({ children }) {
