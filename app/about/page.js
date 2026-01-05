@@ -8,6 +8,8 @@ export default function About() {
         consultancy committed to delivering safe, efficient, and economical
         engineering solutions.
       </p>
+           <a href="/Mumba-Consulntants-Profile.pdf" download>
+  📄 Download Company Profile
 
       <h2>Founder Biography</h2>
       <p>
