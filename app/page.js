@@ -19,9 +19,6 @@ export default function Home() {
           <li>✔ Professional supervision, house plans and designe & reporting</li>
           <li>✔ Zambia-based, site-focused solutions</li>
 
-           <a href="/Mumba-Consulntants-Profile.pdf" download>
-  📄 Download Company Profile
-
         </ul>
       </section>
         
