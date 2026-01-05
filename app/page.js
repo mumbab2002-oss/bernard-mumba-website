@@ -35,6 +35,26 @@ export default function Home() {
       {/* ================= WHY CHOOSE US ================= */}
       <section style={{ marginTop: "40px" }}>
         <h2>Why Choose Us</h2>
+        <div
+  style={{
+    display: "inline-block",
+    marginBottom: "20px",
+    padding: "12px 18px",
+    backgroundColor: "#ffffff",
+    borderRadius: "8px",
+    boxShadow: "0 2px 6px rgba(0,0,0,0.1)",
+    transition: "transform 0.3s",
+  }}
+  onMouseOver={(e) =>
+    (e.currentTarget.style.transform = "scale(1.05)")
+  }
+  onMouseOut={(e) =>
+    (e.currentTarget.style.transform = "scale(1)")
+  }
+>
+  🏗️ Structural Design
+</div>
+
         <ul>
           <li>✔ Safe & code-compliant designs</li>
           <li>✔ Experience in housing & infrastructure</li>
