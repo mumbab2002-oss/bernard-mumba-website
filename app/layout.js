@@ -2,7 +2,6 @@ export const metadata = {
   title: "Mumba Consulntants | Civil Engineer in Zambia",
   description:
     "Mumba Consulntants offers professional civil and structural engineering services in Zambia including design, supervision, and consultancy.",
-};
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -39,6 +38,13 @@ export default function RootLayout({ children }) {
                 style={{ color: "#fff", marginRight: "15px", textDecoration: "none" }}
               >
                 Home
+              </a>
+
+              <a
+                href="/about"
+                style={{ color: "#fff", marginRight: "15px", textDecoration: "none" }}
+              >
+                About
               </a>
 
               <a
@@ -144,7 +150,7 @@ export default function RootLayout({ children }) {
           </p>
         </footer>
 
-        {/* ================= FLOATING WHATSAPP ================= */}
+        {/* ================= FLOATING WHATSAPP BUTTON ================= */}
         <a
           href="https://wa.me/message/L4UVQ3PS2LMWN1"
           target="_blank"
