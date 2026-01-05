@@ -44,6 +44,22 @@ export default function Home() {
           <li>✔ Zambia-based, site-focused solutions</li>
         </ul>
       </section>
+<a
+  href="/contact"
+  style={{
+    display: "inline-block",
+    marginTop: "20px",
+    padding: "14px 22px",
+    backgroundColor: "#0a3d62",
+    color: "#fff",
+    borderRadius: "6px",
+    textDecoration: "none",
+    fontWeight: "bold",
+  }}
+>
+  📞 Request Engineering Consultation
+</a>
+
 
       {/* ================= CONTACT ================= */}
       <section style={{ marginTop: "40px" }}>
