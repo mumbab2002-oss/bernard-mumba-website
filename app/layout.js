@@ -4,6 +4,34 @@ export const metadata = {
     "Mumba Consultants offers professional civil and structural engineering services in Zambia including design, supervision, and consultancy.",
 };
 export default function RootLayout({ children }) {
+  <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "EngineeringOrganization",
+      name: "Mumba Consultants",
+      url: "https://mumbaconsultants.vercel.app",
+      areaServed: "Zambia",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Ndola",
+        addressCountry: "ZM",
+      },
+      founder: {
+        "@type": "Person",
+        name: "Bernard Mumba",
+      },
+      sameAs: [
+        "https://www.linkedin.com/in/bernard-mumba-02372b333",
+        "https://www.facebook.com/share/1C32NACPan/",
+        "https://www.instagram.com/bernardbwalyamumba",
+        "https://www.youtube.com/@structuralbbmumba"
+      ]
+    }),
+  }}
+/>
+
   return (
     <html lang="en">
       <body
