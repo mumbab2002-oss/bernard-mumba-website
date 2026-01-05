@@ -20,6 +20,25 @@ export default function About() {
             marginBottom: "15px",
           }}
         />
+          <section>
+  <h2>What Clients Say</h2>
+
+  <div style={card}>
+    <p>
+      “Mumba Consultants provided excellent structural guidance for our house
+      project in Ndola.”
+    </p>
+    <strong>— Homeowner, Ndola</strong>
+  </div>
+
+  <div style={card}>
+    <p>
+      “Professional, reliable, and technically sound engineering services.”
+    </p>
+    <strong>— Contractor, Copperbelt</strong>
+  </div>
+</section>
+
 
         <h1>About Mumba Consultants</h1>
         <p>
