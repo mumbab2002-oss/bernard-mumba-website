@@ -139,6 +139,7 @@ export default function RootLayout({ children }) {
 
         {/* ================= FLOATING WHATSAPP BUTTON ================= */}
         
+        <a
           href="https://wa.me/message/L4UVQ3PS2LMWN1"
           target="_blank"
           rel="noopener noreferrer"
